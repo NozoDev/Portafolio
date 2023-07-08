@@ -8,10 +8,9 @@ const Header = () => {
       </div>
 
       <section className="px-4 py-10  bg-gray-500 md:grid md:place-content-center md:px-10 ">
-        <h2 className="text-3xl font-bold md:text-5xl md:relative md:z-20 text-sky-500">Soy Kevin Rojas. Un desarrollador front-end <span className="text-gray-300">Vivo en <span className="text-cyan-400 animate-pulse duration-200" >Colombia.</span></span></h2>
+        <h2 className="text-3xl font-bold md:text-5xl md:relative md:z-20 text-sky-500">Soy Kevin Rojas. desarrollador front-end </h2>
         <p className="mt-4 md:mt-10 md:relative md:z-20 ">
-        Probablemente soy el diseñador más apasionado me gusta innovar, con el que trabajarás
-          Si tienes un gran proyecto que necesita algunas habilidades increíbles.
+        apasionado con un enfoque creativo y una fascinación por el mundo del diseño y la tecnología. A través de mi carrera, he tenido el privilegio de trabajar en diversos proyectos donde he podido combinar mis habilidades artísticas y mi experiencia técnica para crear soluciones únicas y atractivas.
         </p>
       </section>
     </section>
