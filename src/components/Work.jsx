@@ -16,15 +16,15 @@ const Work = () => {
  
   
   return (
-    <section className="text-white py-12 px-2 max-w-[1100px] mx-auto" id="Work">
-      <h2 className="text-3xl font-bold py-4 text-center text-withe ">
+    <section className="text-white py-12 px-2 max-w-[1100px] mx-auto " id="Work">
+      <h2 className="text-3xl font-bold py-4 text-center text-withe  ">
         Proyectos en los que he trabajado!
       </h2>
       <Swiper
         spaceBetween={40}
         pagination={{ clickable: true }}
         modules={[Pagination]}
-        className="mySwiper md:left-4"
+        className="mySwiper md:left-4 "
         breakpoints={{
           // Para pantallas de hasta 320px de ancho
           320: {
