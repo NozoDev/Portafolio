@@ -24,11 +24,11 @@ const Skillset = () => {
           <img src="/images/JS.png" alt="" />
           <img src="/images/React.png" alt="" />
           <img src="/images/tailwind.png" alt="" />
-          <img src="/public/images/Postgresql.png" alt="" />
-          <img src="/public/images/nextjs3.png" alt="" />
-          <img src="/public/images/nodejs.png" alt="" />
-          <img src="/public/images/Git.png" alt="" />
-          <img src="/public/images/redux.png" alt="" />
+          <img src="/images/Postgresql.png" alt="" />
+          <img src="/images/nextjs3.png" alt="" />
+          <img src="/images/nodejs.png" alt="" />
+          <img src="/images/Git.png" alt="" />
+          <img src="/images/redux.png" alt="" />
         </div>
       </section>
     </section>
