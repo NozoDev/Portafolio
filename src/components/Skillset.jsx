@@ -27,14 +27,10 @@ const Skillset = () => {
              <img src="/public/images/1200px-Node.js_logo.svg.png" alt="" />
              <img src="/public/images/Git.png" alt="" />
              <img src="/public/images/Cuando_y_por_que_debo_usar_redux_en_mis_proyectos_frontend.jpg" alt="" />
-
-
-             
             </div>
       </section>
 
-      {/* Subseccion inferior (Logos) */}
-     
+   
     </section>
   );
 };
