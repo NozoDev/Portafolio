@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex  justify-between py-4 px-2 text-2xl text-black items-center md:px-4 md:py-0 absolute top-0 left-0 w-full z-30">
+    <header className="flex  justify-between py-4 px-2 text-2xl text-sky-500 items-center md:px-4 md:py-0 absolute top-0 left-0 w-full z-30">
       <h1 className="font-bold text-sky-500  text-3xl animate-pulse">Kevin R.</h1>
 
       <i

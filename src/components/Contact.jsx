@@ -5,9 +5,14 @@ const Contact = () => {
   const formRef = useRef(null);
   const [isSent, setIsSent] = useState(false);
   const [successMessage, setSuccessMessage] = useState(" ");
-
+  
   const handleSubmit = (e) => {
     e.preventDefault();
+    const {from_name, email, message} = e.target.elements
+    
+    if (!from_name.value || !email.value || !message.value) {
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -76,7 +81,7 @@ const Contact = () => {
         </button>
       </form>
       {isSent && (
-        <p className="text-indigo-500 text-center ">{successMessage}</p>
+        <p className="text-white text-center ">{successMessage}</p>
       )}
     </section>
   );

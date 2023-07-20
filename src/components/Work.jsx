@@ -3,12 +3,13 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 
-import { Pagination } from "swiper";
+import { Navigation, Pagination } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "./styles.css"
 
-import "./styles.css";
+
 
 // import required modules
 const Work = () => {
@@ -21,10 +22,11 @@ const Work = () => {
         Proyectos en los que he trabajado!
       </h2>
       <Swiper
-        spaceBetween={40}
-        pagination={{ clickable: true }}
-        modules={[Pagination]}
-        className="mySwiper md:left-4 "
+        pagination={{ type: 'progressbar',
+       }}
+       navigation={true}
+        modules={[Pagination, Navigation]}
+        className="mySwiper md:left-4"
         breakpoints={{
           // Para pantallas de hasta 320px de ancho
           320: {
@@ -37,14 +39,15 @@ const Work = () => {
         }}
       
       >
-        <SwiperSlide>
+        <SwiperSlide >
           <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://sparkling-axolotl-da64bc.netlify.app/"
+
           >
             
-            <img src="/images/Rick.png" alt="" />
+            <img src="/images/Rick.png" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -53,7 +56,7 @@ const Work = () => {
             rel="noopener noreferrer"
             href="https://shiny-quokka-7d33ba.netlify.app/"
           >
-            <img src="/images/Reloj.png" alt="" />
+            <img src="/images/Reloj.png" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -62,7 +65,7 @@ const Work = () => {
             rel="noopener noreferrer"
             href="https://thecardshopping.netlify.app/"
           >
-            <img src="/images/shoppin1.png" alt="" />
+            <img src="/images/shoppin1.png" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -71,7 +74,7 @@ const Work = () => {
             rel="noopener noreferrer"
             href="https://miprimerpag.netlify.app/"
           >
-            <img src="/images/blog.png" alt="" />
+            <img src="/images/blog.png" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -80,7 +83,7 @@ const Work = () => {
             rel="noopener noreferrer"
             href="https://helpful-conkies-072b91.netlify.app/"
           >
-            <img src="/images/Usuario.png" alt="" />
+            <img src="/images/Usuario.png" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -89,7 +92,7 @@ const Work = () => {
             rel="noopener noreferrer"
             href="https://infinityspaces.netlify.app/"
           >
-            <img src="/images/Galaxia.png" alt="" />
+            <img src="/images/Galaxia.png" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
         <SwiperSlide>
@@ -98,9 +101,10 @@ const Work = () => {
             rel="noopener noreferrer"
             href="https://subtle-pastelito-c13191.netlify.app/"
           >
-            <img src="/images/pokedex.jpg" alt="" />
+            <img src="/images/pokedex.jpg" alt="" className="object-contain w-full h-full" />
           </a>
         </SwiperSlide>
+        <div></div>
       </Swiper>
     
     </section>
