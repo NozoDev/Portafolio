@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Route } from "react-router-dom";
 
+
 const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
 
@@ -10,7 +11,9 @@ const Navbar = () => {
 
   return (
     <header className="flex  justify-between py-4 px-2 text-2xl text-sky-500 items-center md:px-4 md:py-0 absolute top-0 left-0 w-full z-30">
-      <h1 className="font-bold text-sky-500  text-3xl animate-pulse">Kevin R.</h1>
+      <h1 className="font-bold text-sky-500  text-3xl animate-pulse">
+        Kevin R.
+      </h1>
 
       <i
         onClick={handleShowNav}
@@ -19,7 +22,7 @@ const Navbar = () => {
 
       <nav
         className={`text-sky-500 ? absolute top-full ${
-          isShowNav ? "left-0" : "-left-full" 
+          isShowNav ? "left-0" : "-left-full"
         } w-full grid text-lg gap-2 duration-200 md:static md:flex md:w-auto`}
       >
         <a
