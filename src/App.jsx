@@ -15,11 +15,11 @@ function App() {
       <Navbar />
   
       <Header />
+      
       <Work />
       <Philosophy />
       <Skillset />
       <Contact />
-      <DownloadCv />
       <Footer />
       
     </div>
