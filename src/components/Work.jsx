@@ -7,7 +7,7 @@ const Work = () => {
     id="Work"
     >
       
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective shadow-2xl">
+      <div className="w-[300px] h-[320px] bg-transparent  group perspective shadow-2xl">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
    
           <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
@@ -33,7 +33,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
             <img src="/images/Reloj.png" alt="" className="w-full h-full rounded-md" />
@@ -62,7 +62,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
             <img src="/images/shoppin1.png" alt="" className="w-full h-full rounded-md" />
@@ -86,7 +86,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden
           bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
@@ -111,7 +111,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden
           bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
@@ -136,7 +136,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden
           bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
@@ -165,7 +165,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden
           bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
@@ -194,7 +194,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent cursor-pointer group perspective">
+      <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden
           bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
