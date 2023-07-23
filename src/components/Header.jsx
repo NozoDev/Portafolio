@@ -1,5 +1,6 @@
 import React from "react";
 import CV from "../Cv/Kevin-rojas-Desarrollador.pdf";
+import "./header.css";
 const handleDownload = () => {
   const link = document.createElement("a");
   link.href = CV;
@@ -10,16 +11,16 @@ const handleDownload = () => {
 const Header = () => {
   return (
     <section className="text-white md:grid md:grid-cols-[1fr_2fr] md:min-h-[508px] max-w-[1200px] mx-auto">
-      <div className="relative">
+      <div className="relative  flex justify-center">
         <img
-          className="w-full md:absolute md:top-1/2 md:-translate-y-1/2 md:w-[86%] left-4  md:max-w-none"
+          className="w-[100%] bg-gray-500  rounded-full md:absolute md:top-1/2 md:-translate-y-1/2 md:w-[88%] md:max-w-none"
           src="/images/header.png"
           alt=""
         />
       </div>
-      <section className="px-4 py-10  bg-gray-500 md:grid md:place-content-center md:px-10 ">
-        <h2 className="text-3xl font-bold md:text-5xl md:relative md:z-20 text-sky-500">
-          Soy Kevin Rojas. desarrollador front-end{" "}
+      <section className="px-4 py-10 text-center rounded-b-xl bg-gray-500 md:grid md:place-content-center md:px-10 ">
+        <h2 className="text-3xl md:text-5xl md:relative md:z-20 font-extrabold">
+          Desarrollador Front-end{" "}
         </h2>
         <p className="mt-4 md:mt-10 md:relative md:z-20 ">
           Apasionado con un enfoque creativo y una fascinación por el mundo del
@@ -29,10 +30,10 @@ const Header = () => {
           soluciones únicas y atractivas.
         </p>
 
-        <div className="flex justify-center  py-4 font-bold">
+        <div className="flex justify-center py-4 font-bold">
           <button
             onClick={handleDownload}
-            className="flex bg-slate-700 transition-colors  rounded-full items-center gap-2 text-white "
+            className="flex bg-slate-700 w-30 h-10  transition-colors rounded-xl items-center gap-2 text-white "
             href="#"
           >
             DescargarCv

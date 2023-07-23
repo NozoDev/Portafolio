@@ -1,6 +1,4 @@
-
 import Contact from "./components/Contact";
-import { DownloadCv } from "./components/DownloadCv";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -9,19 +7,15 @@ import Skillset from "./components/Skillset";
 import Work from "./components/Work";
 
 function App() {
-  
   return (
-    <div className="App  font-['Sen'] bg-neutral-900 min-h-screen da">
+    <div className="App  font-['Sen'] bg-neutral-950 min-h-screen">
       <Navbar />
-  
       <Header />
-      
       <Work />
       <Philosophy />
       <Skillset />
       <Contact />
       <Footer />
-      
     </div>
   );
 }

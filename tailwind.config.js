@@ -18,8 +18,9 @@ const Myclass = plugin(function ({ addUtilities }) {
     },
   });
 });
+
+
 export default {
-  darkmode: "class",
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
@@ -28,8 +29,11 @@ export default {
       },
       colors: {
         "gray-d": "#181823",
+        
       },
     },
   },
-  plugins: [Myclass],
+  plugins:[ require('tailwindcss'),
+  require('autoprefixer'),
+  Myclass],
 };

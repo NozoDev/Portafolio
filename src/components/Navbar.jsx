@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex  justify-between py-4 px-2 text-2xl text-sky-500 items-center md:px-4 md:py-0 absolute top-0 left-0 w-full z-30">
-      <h1 className="font-bold text-sky-500  text-3xl animate-pulse">
+    <header className="flex justify-between  py-4 px-2 text-2xl text-white items-center md:px-4 md:py-0 absolute top-0 left-0 w-full z-30">
+      <h1 className="font-bold text-3xl animate-pulse p-2 ">
         Kevin R.
       </h1>
 
@@ -21,7 +21,7 @@ const Navbar = () => {
       ></i>
 
       <nav
-        className={`text-sky-500 ? absolute top-full ${
+        className={`text-white ? absolute top-full ${
           isShowNav ? "left-0" : "-left-full"
         } w-full grid text-lg gap-2 duration-200 md:static md:flex md:w-auto`}
       >
