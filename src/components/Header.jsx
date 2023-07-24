@@ -13,8 +13,8 @@ const Header = () => {
     <section className="text-white md:grid md:grid-cols-[1fr_2fr] md:min-h-[508px] max-w-[1200px] mx-auto">
       <div className="relative  flex justify-center">
         <img
-          className="w-[100%] bg-gray-500  rounded-full md:absolute md:top-1/2 md:-translate-y-1/2 md:w-[88%] md:max-w-none"
-          src="/images/header.png"
+          className="w-[60%] md:rounded-full md:absolute md:top-1/3  md:-translate-y-1/2 md:w-[75%] md:max-w-none"
+          src="/images/kevins.png"
           alt=""
         />
       </div>
