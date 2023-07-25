@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="flex justify-between  py-4 px-2 text-2xl text-white items-center md:px-4 md:py-0 absolute top-0 left-0 w-full z-30">
+    <header className="fixed top-0 flex bg-gray-d justify-between h-10 items-center py-4 md:px-6 text-white mx-auto lg:px-24 md:py-0 w-full z-30 transition-colors duration-700">
       <h1 className="font-bold text-3xl animate-pulse p-2 ">
         Kevin R.
       </h1>
@@ -27,25 +27,25 @@ const Navbar = () => {
         } w-full grid text-lg gap-2 duration-200 md:static md:flex md:w-auto`}
       >
         <a
-          className="hover:bg-blue-200 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-sky-400 font-bold p-4 duration-200 pl-2 text-2xl "
           href="#Work"
         >
           Proyectos
         </a>
         <a
-          className="hover:bg-sky-200 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-sky-400 font-bold p-4 duration-200 pl-2 text-2xl "
           href="#Philosophy"
         >
           Filosofia
         </a>
         <a
-          className="hover:bg-sky-200 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-sky-400 font-bold p-4 duration-200 pl-2 text-2xl "
           href="#Skillset"
         >
           Habilidades
         </a>
         <a
-          className="hover:bg-sky-200 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-sky-400 rounded-full font-bold p-4 duration-200 pl-2 text-2xl "
           href="#Contact"
         >
           Contacto

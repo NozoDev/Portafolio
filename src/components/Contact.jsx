@@ -33,7 +33,7 @@ const Contact = () => {
 
   return (
     <section
-      className="text-white p-2 px-x py-6 max-w-[500px] mx-auto"
+      className="text-white p-2 px-x py-6 max-w-[600px] mx-auto"
       id="Contact"
     >
       <section>
