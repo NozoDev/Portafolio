@@ -1,6 +1,6 @@
 import React from "react";
 import CV from "../Cv/Kevin-rojas-Desarrollador.pdf";
-import "./header.css";
+import "./styles.css";
 const handleDownload = () => {
   const link = document.createElement("a");
   link.href = CV;
@@ -11,7 +11,7 @@ const handleDownload = () => {
 const Header = () => {
   return (
     <section className="text-white md:grid md:grid-cols-[1fr_2fr] md:min-h-[508px] max-w-[1200px] mx-auto">
-      <div className="relative  flex justify-center">
+      <div className="relative flex justify-center">
         <img
           className="w-[60%] md:rounded-full md:absolute md:top-1/3  md:-translate-y-1/2 md:w-[75%] md:max-w-none"
           src="/images/kevins.png"
@@ -19,7 +19,7 @@ const Header = () => {
         />
       </div>
       <section className="px-4 py-10 text-center rounded-b-xl bg-gray-500 md:grid md:place-content-center md:px-10 ">
-        <h2 className="text-3xl md:text-5xl md:relative md:z-20 font-extrabold">
+        <h2 className="text-3xl  md:text-5xl md:relative md:z-20 font-extrabold">
           Desarrollador Front-end{" "}
         </h2>
         <p className="mt-4 md:mt-10 md:relative md:z-20 ">

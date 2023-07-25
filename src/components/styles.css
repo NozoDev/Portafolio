@@ -3,3 +3,7 @@ h2 {
   -webkit-text-stroke: 0.7px white;
 }
 
+h1{
+  color: transparent;
+  -webkit-text-stroke: 0.7px white;
+}
