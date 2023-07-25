@@ -33,15 +33,14 @@ const Contact = () => {
 
   return (
     <section
-      className="text-white px-x py-6 grid sm:grid-cols-2 max-w-[1000px] mx-auto"
+      className="text-white p-2 px-x py-6 max-w-[500px] mx-auto"
       id="Contact"
     >
       <section>
-        <p className="text-gray-400 my-4">
-          Contactame si te interesa trabajar conmigo
-        </p>
-      </section>
-      <form onSubmit={handleSubmit} className="grid gap-6 " ref={formRef}>
+        <div className="text-center text-3xl">
+          Contactame
+        </div>
+      <form onSubmit={handleSubmit} className="grid gap-6 mt-4 " ref={formRef}>
         <div className="grid gap-1">
           <label className="text-sm " htmlFor="name">
             Nombre
@@ -51,7 +50,7 @@ const Contact = () => {
             id="name"
             type="text"
             name="from_name"
-          />
+            />
         </div>
         <div className="grid gap-1">
           <label className="text-sm" htmlFor="email">
@@ -62,7 +61,7 @@ const Contact = () => {
             id="email"
             type="text"
             name="email"
-          />
+            />
         </div>
         <div className="grid gap-1">
           <label className="text-sm" htmlFor="Mensaje">
@@ -73,7 +72,7 @@ const Contact = () => {
             id="Mensaje"
             rows="10"
             name="message"
-          ></textarea>
+            ></textarea>
         </div>
 
         <button className="bg-indigo-800 hover:bg-indigo-500  transition-colors py-4 font-bold">
@@ -82,7 +81,8 @@ const Contact = () => {
       </form>
       {isSent && (
         <p className="text-white text-center ">{successMessage}</p>
-      )}
+        )}
+        </section>
     </section>
   );
 };

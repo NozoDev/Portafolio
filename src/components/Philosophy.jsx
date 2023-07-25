@@ -3,7 +3,7 @@ import React from "react";
 const Philosophy = () => {
   return (
     <section
-      className="max-w-[1200px] mt-6 mx-auto  text-white sm:grid sm:grid-cols-2"
+      className="max-w-[1200px] mt-6 mx-auto p-2 text-white sm:grid sm:grid-cols-2"
       id="Philosophy"
     >
       <article className="bg-gray-500 text-white text-center py-10 px-2 grid gap-12 sm:grid sm:content-between">

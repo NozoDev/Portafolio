@@ -3,10 +3,12 @@ import React, { useRef, useState } from "react";
 const Work = () => {
   return (
     <section
-      className="px-6 md:px-12 py-8 grid gap-6 auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(230px,_340px))] justify-center"
+      
       id="Work"
     >
-      <div className="w-[300px] h-[320px] bg-transparent group perspective shadow-2xl">
+        <h3 className="text-4xl text-white font-bold text-center mt-10 mb-5">Proyectos</h3>
+      <article className="grid justify-center mt-10 gap-4 justify-items-center auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(230px,_340px))]">
+      <div className="w-[300px]  h-[320px] bg-transparent group perspective shadow-2xl">
         <div className="relative rounded-md preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
             <img
@@ -15,8 +17,8 @@ const Work = () => {
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute rounded-md bg-slate-700 my-rotate-y-180 w-full backface-hidden h-full overflow-hidden ">
-            <div className="text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-4 ">
+          <div className="absolute  rounded-md bg-slate-700 my-rotate-y-180 w-full backface-hidden h-full overflow-hidden ">
+            <div className="text-center flex text-white flex-col items-center h-full px-2 pb-24 p-4 ">
               <h1 className="text-3xl font-semibold ">Rick And Morty</h1>
 
               <p className="p-2">
@@ -54,7 +56,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute rounded-md my-rotate-y-180 w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold p-2">App-Clima</h1>
 
               <p>
@@ -93,7 +95,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden">
-            <div className="bg-slate-700  text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl py-2 font-semibold">E-commerc</h1>
               <p className="">
                 En este proyecto estoy trabajando con un equipo de Academlo,
@@ -134,7 +136,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700  text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold">App-Mascotas</h1>
               <p className="p-3">
                 Una aplicacion de mascotas donde encontraras diferentes
@@ -174,7 +176,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold ">Card Usuario</h1>
               <p className="p-3">
                 En este proyecto se trabaja con funciones de registro de
@@ -215,7 +217,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold ">Pokedex</h1>
               <p className="p-3">
                 En este proyecto, usamos tailwind, react, vite y una API para
@@ -252,7 +254,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold">Rick And Morty</h1>
               <p className="p-3">
                 Bienvenido a la galaxia. Realizarás este viaje por el espacio en
@@ -292,7 +294,7 @@ const Work = () => {
             />
           </div>
           <div className="absolute rounded-md my-rotate-y-180 w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
               <h1 className="text-2xl font-semibold py-2">Tienda Online</h1>
               <p className="p-3">
                 Esta tienda esta hecha con react js y tailwind css y se consumio
@@ -318,6 +320,7 @@ const Work = () => {
           </div>
         </div>
       </div>
+      </article>
     </section>
   );
 };
