@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Philosophy from "./components/Philosophy";
 import Skillset from "./components/Skillset";
 import Work from "./components/Work";
-import img3 from "../public/images/3.jpg"
 
 function App() {
 
