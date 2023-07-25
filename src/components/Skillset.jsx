@@ -19,16 +19,16 @@ const Skillset = () => {
         </article>
 
         <div className="grid grid-cols-5 mt-8  gap-5 max-w-[800px] mx-auto  items-center   ">
-          <img className="" src="/images/HTML.png" alt="" />
-          <img src="/images/CSS.png" alt="" />
-          <img src="/images/JS.png" alt="" />
-          <img src="/images/React.png" alt="" />
-          <img src="/images/tailwind.png" alt="" />
-          <img src="/images/Postgresql.png" alt="" />
-          <img src="/images/nextjs3.png" alt="" />
-          <img src="/images/nodejs.png" alt="" />
-          <img src="/images/Git.png" alt="" />
-          <img src="/images/redux.png" alt="" />
+          <img className="animate-pulse " src="/images/HTML.png" alt="" />
+          <img className="animate-pulse " src="/images/CSS.png" alt="" />
+          <img className="animate-pulse " src="/images/JS.png" alt="" />
+          <img className="animate-pulse " src="/images/React.png" alt="" />
+          <img className="animate-pulse " src="/images/tailwind.png" alt="" />
+          <img className="animate-pulse " src="/images/Postgresql.png" alt="" />
+          <img className="animate-pulse " src="/images/nextjs3.png" alt="" />
+          <img className="animate-pulse " src="/images/nodejs.png" alt="" />
+          <img className="animate-pulse " src="/images/Git.png" alt="" />
+          <img className="animate-pulse " src="/images/redux.png" alt="" />
         </div>
       </section>
     </section>
