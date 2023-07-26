@@ -9,7 +9,7 @@ const handleDownload = () => {
 
 const Header = () => {
   return (
-    <section className="text-white md:grid p-2 md:grid-cols-[1fr_2fr] md:min-h-[508px] max-w-[1200px] mx-auto">
+    <section id="Home" className="text-white  md:grid p-2 md:grid-cols-[1fr_2fr] md:min-h-[508px] max-w-[1200px] mx-auto">
       <div className="relative flex justify-center">
         <img
           className="w-[100%]  md:rounded-full md:absolute md:top-1/3 md:-translate-y-1/2 md:w-[75%] md:max-w-none"

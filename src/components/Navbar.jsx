@@ -26,6 +26,12 @@ const Navbar = () => {
           isShowNav ? "left-0" : "-left-full"
         } w-full grid text-lg gap-4 duration-200 rounded-md p-2  md:static md:flex md:w-auto`}
       >
+          <a
+          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl "
+          href="#Home"
+        >
+          Inicio
+        </a>
         <a
           className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl "
           href="#Work"
