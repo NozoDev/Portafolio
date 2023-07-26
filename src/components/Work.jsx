@@ -123,12 +123,9 @@ const Work = () => {
         </div>
       </div>
 
-      <div className="w-[300px] h-[320px] bg-transparent group perspective">
-        <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
-          <div
-            className="absolute border-0 w-full h-full backface-hidden
-          bg-gradient-to-tr from-cold p-2 rounded-md"
-          >
+      <div className="w-[300px] h-[320px] bg-transparent group  perspective">
+        <div className="relative preserve-3d  rounded-md  group-hover:my-rotate-y-180 w-full h-full duration-1000">
+          <div className="absolute border-0  w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
             <img
               src="/images/blog.png"
               alt=""
@@ -137,10 +134,10 @@ const Work = () => {
           </div>
           <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
             <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
-              <h1 className="text-3xl font-semibold">App-Mascotas</h1>
-              <p className="p-3">
-                Una aplicacion de mascotas donde encontraras diferentes
-                secciones de interes, hecho con HTML, CSS
+              <h1 className="text-3xl py-2 font-semibold">App-Mascotas</h1>
+              <p className="">
+                En este proyecto estoy trabajando con html y css,
+                hicimos una app para mascotas donde tiene diferentes secciones.
               </p>
               <div className="text-xl py-3 flex text-white gap-3 ">
                 <p>
@@ -154,7 +151,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://miprimerpag.netlify.app/"
-                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB]  px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -162,6 +159,10 @@ const Work = () => {
           </div>
         </div>
       </div>
+
+      
+
+      /** /
 
       <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
