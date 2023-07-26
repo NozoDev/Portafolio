@@ -9,7 +9,7 @@ import Work from "./components/Work";
 function App() {
 
   return (
-    <div className="min-h-screen bg-stone-800 font-sen">
+    <div className="min-h-screen bg-dark font-sen">
       <Navbar />
       <Header />
       <Work />

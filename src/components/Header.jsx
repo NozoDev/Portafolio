@@ -17,7 +17,7 @@ const Header = () => {
           alt=""
         />
       </div>
-      <section className="px-4 py-10 text-center rounded-b-xl bg-gray-500 md:grid md:place-content-center md:px-10 ">
+      <section className="px-4 py-10 text-center rounded-b-xl bg-blue md:grid md:place-content-center md:px-10 ">
         <h2 className="text-2xl  md:text-5xl md:relative md:z-20 font-extrabold">
           Desarrollador Front-end{" "}
         </h2>
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="hover:animate-pulse flex justify-center py-4 font-bold">
           <button
             onClick={handleDownload}
-            className="flex bg-slate-700 w-30 h-10 p-2 transition-colors rounded-xl items-center gap-2 text-white "
+            className="flex bg-winter w-30 h-10 p-2 transition-colors rounded-xl items-center gap-2 text-white "
             href="#"
           >
             DescargarCV

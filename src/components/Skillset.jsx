@@ -18,7 +18,7 @@ const Skillset = () => {
           </p>
         </article>
 
-        <div className="grid grid-cols-5 mt-8 p-2 gap-3 max-w-[800px] mx-auto  items-center   ">
+        <div className="grid grid-cols-5 mt-8 p-2 gap-3 max-w-[800px] mx-auto items-center">
           <img className="animate-pulse " src="/images/HTML.png" alt="" />
           <img className="animate-pulse " src="/images/CSS.png" alt="" />
           <img className="animate-pulse " src="/images/JS.png" alt="" />

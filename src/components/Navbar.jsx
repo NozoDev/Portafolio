@@ -24,28 +24,28 @@ const Navbar = () => {
       <nav
         className={`text-white ? absolute top-full ${
           isShowNav ? "left-0" : "-left-full"
-        } w-full grid text-lg gap-2 duration-200 md:static md:flex md:w-auto`}
+        } w-full grid text-lg gap-4 duration-200 rounded-md p-2  md:static md:flex md:w-auto`}
       >
         <a
-          className="hover:bg-sky-400 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl "
           href="#Work"
         >
           Proyectos
         </a>
         <a
-          className="hover:bg-sky-400 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl "
           href="#Philosophy"
         >
           Filosofia
         </a>
         <a
-          className="hover:bg-sky-400 font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl "
           href="#Skillset"
         >
           Habilidades
         </a>
         <a
-          className="hover:bg-sky-400 rounded-full font-bold p-4 duration-200 pl-2 text-2xl "
+          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl "
           href="#Contact"
         >
           Contacto

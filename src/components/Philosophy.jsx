@@ -6,7 +6,7 @@ const Philosophy = () => {
       className="max-w-[1200px] mt-6 mx-auto p-2 text-white sm:grid sm:grid-cols-2"
       id="Philosophy"
     >
-      <article className="bg-gray-500 text-white text-center py-10 px-2 grid gap-12 sm:grid sm:content-between">
+      <article className="bg-blue text-white text-center py-10 px-2 grid gap-12 sm:grid sm:content-between">
         <div>
           <h3 className="text-3xl font-bold pt-4 py-10">Filosofia y valores</h3>
           <p className="text-white ">

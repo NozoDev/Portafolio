@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 // import required modules
 const Work = () => {
   return (
-    <section
+    <section className="mx-auto max-w-[1250px]"
       
       id="Work"
     >
@@ -10,15 +10,15 @@ const Work = () => {
       <article className="grid justify-center mt-10 gap-4 justify-items-center auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(230px,_340px))]">
       <div className="w-[300px]  h-[320px] bg-transparent group perspective shadow-2xl">
         <div className="relative rounded-md preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
-          <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
+          <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
             <img
               src="/images/Rick.png"
               alt=""
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute  rounded-md bg-slate-700 my-rotate-y-180 w-full backface-hidden h-full overflow-hidden ">
-            <div className="text-center flex text-white flex-col items-center h-full px-2 pb-24 p-4 ">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+            <div className="text-center flex text-white flex-col items-center  h-full px-2 pb-24 p-4 ">
               <h1 className="text-3xl font-semibold ">Rick And Morty</h1>
 
               <p className="p-2">
@@ -37,7 +37,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://sparkling-axolotl-da64bc.netlify.app/"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -48,15 +48,15 @@ const Work = () => {
 
       <div className="w-[300px] h-[320px]  bg-transparent group perspective">
         <div className="relative preserve-3d  rounded-md group-hover:my-rotate-y-180 w-full h-full duration-1000">
-          <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
+          <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
             <img
               src="/images/Reloj.png"
               alt=""
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute rounded-md my-rotate-y-180 w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full text-gray-800 px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+            <div className=" text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold p-2">App-Clima</h1>
 
               <p>
@@ -64,7 +64,7 @@ const Work = () => {
                 agregue modos como el modo oscuro que se adapta automáticamente
                 según el tiempo, puede buscar en diferentes lugares.
               </p>
-              <div className="text-xl py-3 flex text-white gap-3 ">
+              <div className="text-xl py-2 flex text-white gap-3 ">
                 <p>
                   <i className="bx bxl-tailwind-css"></i> Tailwind
                 </p>
@@ -76,7 +76,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://shiny-quokka-7d33ba.netlify.app/"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -87,15 +87,15 @@ const Work = () => {
 
       <div className="w-[300px] h-[320px] bg-transparent group  perspective">
         <div className="relative preserve-3d  rounded-md  group-hover:my-rotate-y-180 w-full h-full duration-1000">
-          <div className="absolute border-0  w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
+          <div className="absolute border-0  w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
             <img
               src="/images/shoppin1.png"
               alt=""
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden">
-            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+            <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl py-2 font-semibold">E-commerc</h1>
               <p className="">
                 En este proyecto estoy trabajando con un equipo de Academlo,
@@ -114,7 +114,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://thecardshopping.netlify.app/"
-                className="bg-teal-500  px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB]  px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -127,7 +127,7 @@ const Work = () => {
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div
             className="absolute border-0 w-full h-full backface-hidden
-          bg-gradient-to-tr from-amber-500/40 p-2 rounded-md"
+          bg-gradient-to-tr from-cold p-2 rounded-md"
           >
             <img
               src="/images/blog.png"
@@ -135,8 +135,8 @@ const Work = () => {
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+            <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold">App-Mascotas</h1>
               <p className="p-3">
                 Una aplicacion de mascotas donde encontraras diferentes
@@ -154,7 +154,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://miprimerpag.netlify.app/"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -167,7 +167,7 @@ const Work = () => {
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div
             className="absolute border-0 w-full h-full backface-hidden
-          bg-gradient-to-tr from-amber-500/40 p-2 rounded-md"
+          bg-gradient-to-tr from-cold p-1 rounded-md"
           >
             <img
               src="/images/Usuario.png"
@@ -175,8 +175,8 @@ const Work = () => {
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+            <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold ">Card Usuario</h1>
               <p className="p-3">
                 En este proyecto se trabaja con funciones de registro de
@@ -195,7 +195,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://infinityspaces.netlify.app/"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -208,7 +208,7 @@ const Work = () => {
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div
             className="absolute border-0 w-full h-full backface-hidden
-          bg-gradient-to-tr from-amber-500/40 p-2 rounded-md"
+          bg-gradient-to-tr from-cold p-1 rounded-md"
           >
             <img
               src="./images/pokedex.jpg"
@@ -216,8 +216,8 @@ const Work = () => {
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+            <div className="text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold ">Pokedex</h1>
               <p className="p-3">
                 En este proyecto, usamos tailwind, react, vite y una API para
@@ -235,7 +235,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://subtle-pastelito-c13191.netlify.app/"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -246,15 +246,15 @@ const Work = () => {
 
       <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
-          <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-amber-500/40 p-2 rounded-md">
+          <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
             <img
               src="/images/Galaxia.png"
               alt=""
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute my-rotate-y-180 rounded-md w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md my-rotate-y-180 w-full h-full overflow-hidden ">
+            <div className=" text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
               <h1 className="text-3xl font-semibold">Rick And Morty</h1>
               <p className="p-3">
                 Bienvenido a la galaxia. Realizarás este viaje por el espacio en
@@ -272,7 +272,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://subtle-pastelito-c13191.netlify.app"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
@@ -285,7 +285,7 @@ const Work = () => {
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
           <div
             className="absolute border-0 w-full h-full backface-hidden
-          bg-gradient-to-tr from-amber-500/40 p-2 rounded-md"
+          bg-gradient-to-tr from-cold p-1 rounded-md"
           >
             <img
               src="/images/tienda.png"
@@ -293,8 +293,8 @@ const Work = () => {
               className="w-full rounded-md h-full"
             />
           </div>
-          <div className="absolute rounded-md my-rotate-y-180 w-full backface-hidden h-full bg-gray-100 overflow-hidden ">
-            <div className="bg-slate-700 text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md my-rotate-y-180 w-full h-full overflow-hidden">
+            <div className=" text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
               <h1 className="text-2xl font-semibold py-2">Tienda Online</h1>
               <p className="p-3">
                 Esta tienda esta hecha con react js y tailwind css y se consumio
@@ -312,7 +312,7 @@ const Work = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://starlit-pothos-b658b1.netlify.app/"
-                className="bg-teal-500 px-4 py-2 font-semibold text-white rounded-full absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
               </a>
