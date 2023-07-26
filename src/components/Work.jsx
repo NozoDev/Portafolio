@@ -17,7 +17,7 @@ const Work = () => {
               className="w-full h-full rounded-md"
             />
           </div>
-          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+          <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full h-full overflow-hidden ">
             <div className="text-center flex text-white flex-col items-center  h-full px-2 pb-24 p-4 ">
               <h1 className="text-3xl font-semibold ">Rick And Morty</h1>
 
@@ -159,10 +159,6 @@ const Work = () => {
           </div>
         </div>
       </div>
-
-      
-
-      /** /
 
       <div className="w-[300px] h-[320px] bg-transparent group perspective">
         <div className="relative preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
