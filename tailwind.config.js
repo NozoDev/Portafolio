@@ -19,7 +19,6 @@ const Myclass = plugin(function ({ addUtilities }) {
   });
 });
 
-
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
@@ -29,11 +28,20 @@ export default {
       },
       colors: {
         "gray-d": "#181823",
-        
+        "dark": "#1B262C",
+        "blue": "#0F4C75",
+        "winter": "#3282B8",
+        "cold": "#BBE1FA",
       },
     },
   },
-  plugins:[ require('tailwindcss'),
-  require('autoprefixer'),
-  Myclass],
+  plugins: [
+    require("tailwindcss"),
+    "daisyui",
+    require("autoprefixer"),
+    Myclass,
+  ],
+  daisyui: {
+    themes: ["light", "dark"],
+  },
 };
