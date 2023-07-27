@@ -180,7 +180,7 @@ const Work = () => {
                 usuarios, eliminación de usuarios y actualización de datos
                 Reactjs Y tailwind.
               </p>
-              <div className="text-xl py-3 flex text-white gap-3 ">
+              <div className="text-xl flex text-white gap-3 ">
                 <p>
                   <i className="bx bxl-tailwind-css"></i> Tailwind
                 </p>
