@@ -174,8 +174,8 @@ const Work = () => {
           </div>
           <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
             <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
-              <h1 className="text-3xl font-semibold ">Card Usuario</h1>
-              <p className="p-3">
+              <h1 className="text-2xl font-semibold ">Card Usuario</h1>
+              <p className="p-2 text-md">
                 En este proyecto se trabaja con funciones de registro de
                 usuarios, eliminación de usuarios y actualización de datos
                 Reactjs Y tailwind.
@@ -252,7 +252,7 @@ const Work = () => {
           </div>
           <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md my-rotate-y-180 w-full h-full overflow-hidden ">
             <div className=" text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
-              <h1 className="text-3xl font-semibold">Rick And Morty</h1>
+              <h1 className="text-3xl font-semibold">About Galaxys</h1>
               <p className="p-3">
                 Bienvenido a la galaxia. Realizarás este viaje por el espacio en
                 un cohete, logrando así viajar a diferentes lugares
@@ -268,7 +268,7 @@ const Work = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://subtle-pastelito-c13191.netlify.app"
+                href="https://infinityspaces.netlify.app/"
                 className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
               >
                 INFO
