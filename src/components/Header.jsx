@@ -1,9 +1,9 @@
-import CV from "../Cv/Kevin-rojas-Desarrollador.pdf";
+import CV from "../Cv/Desarrollador kevin rojas recruit.pdf";
 import "./styles.css";
 const handleDownload = () => {
   const link = document.createElement("a");
   link.href = CV;
-  link.download = "Kevin-rojas-Desarrollador.pdf";
+  link.download = "Desarrollador kevin rojas recruit.pdf";
   link.click();
 };
 

@@ -6,6 +6,7 @@ import Philosophy from "./components/Philosophy";
 import Skillset from "./components/Skillset";
 import Work from "./components/Work";
 
+
 function App() {
 
   return (
@@ -16,7 +17,7 @@ function App() {
       <Philosophy />
       <Skillset />
       <Contact />
-      <Footer />       
+      <Footer />   
     </div>
   );
 }
