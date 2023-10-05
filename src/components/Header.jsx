@@ -9,7 +9,7 @@ const handleDownload = () => {
 
 const Header = () => {
   return (
-    <section className="z-20">
+    <section className="z-20 min-h-screen bg-dark font-sen">
       <section className="text-white  md:grid p-2 md:grid-cols-[1fr_2fr] md:min-h-[622px]  mx-auto">
         <div className="relative flex justify-center">
           <img

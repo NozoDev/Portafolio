@@ -23,7 +23,6 @@ function App() {
           <Route path="/skillset" element={<Skillset />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-   
       </div>
     </Router>
   );
