@@ -34,78 +34,78 @@ const Philosophy = () => {
       <section className="relative z-20 ">
         <h4 className="text-center mt-10 text-white  text-4xl">Certificados</h4>
         <article className="flex justify-center gap-4 flex-wrap mt-10">
-          <div className="text-white border-8 w-[550px] border-winter border-solid rounded-lg">
+          <div className="text-white border-4  w-[550px] border-winter border-solid rounded-lg">
             <img
               className="w-[650px] h-[350px] rounded-sm"
               src={Frontend}
               alt=""
             />
-            <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
-              <button type="text" className="border-2 w-24 rounded-sm bg-slate-700">
+         <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
+              <a
+                href="https://certificates.academlo.com/en/verify/62918974502376"
+                target="_blank"
+                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+              >
                 Certificado
-                <a
-                
-                  href="https://certificates.academlo.com/en/verify/62918974502376"
-                  
-                />
-              </button>
-              <h3 className="">Front-End</h3>
-            </div>
-          </div>
-          
-          <div className="text-white border-8 w-[550px] border-winter border-solid rounded-lg">
-            <img
-              className="w-[650px] h-[350px] rounded-sm"
-              src={Frontend}
-              alt=""
-            />
-            <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
-              <button type="text" className="border-2 w-24 rounded-sm bg-slate-700">
-                Certificado
-                <a
-                 
-                  href="https://certificates.academlo.com/en/verify/62918974502376"
-                  target="_blank"
-                />
-              </button>
+              </a>
+
               <h3 className="">Front-End</h3>
             </div>
           </div>
 
-          <div className="text-white w-[550px] border-8  border-winter border-solid rounded-lg">
+          <div className="text-white border-4 w-[550px] border-winter border-solid rounded-md">
             <img
               className="w-[650px] h-[350px] rounded-sm"
               src={Frontend}
               alt=""
             />
-            <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
-              <button type="text" className="border-2 w-24 rounded-sm bg-slate-700">
+          <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
+              <a
+                href="https://certificates.academlo.com/en/verify/62918974502376"
+                target="_blank"
+                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+              >
                 Certificado
-                <a
-                  rel="stylesheet"
-                  href="https://certificates.academlo.com/en/verify/62918974502376"
-                  target="_blank"
-                />
-              </button>
+              </a>
+
               <h3 className="">Front-End</h3>
             </div>
           </div>
 
-         <div className="text-white w-[550px] border-8  border-winter border-solid rounded-lg">
+          <div className="text-white w-[550px] border-4  border-winter border-solid rounded-lg">
+            <img
+              className="w-[650px] h-[350px] rounded-sm"
+              src={Frontend}
+              alt=""
+            />
+         <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
+              <a
+                href="https://certificates.academlo.com/en/verify/62918974502376"
+                target="_blank"
+                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+              >
+                Certificado
+              </a>
+
+              <h3 className="">Front-End</h3>
+            </div>
+          </div>
+
+          <div className="text-white w-[550px] border-4 border-winter border-solid rounded-lg">
             <img
               className="w-[650px] h-[350px] rounded-sm"
               src={Frontend}
               alt=""
             />
             <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
-              <button type="text" className="border-2 w-24 rounded-sm bg-slate-700">
+              <a
+                href="https://certificates.academlo.com/en/verify/62918974502376"
+                target="_blank"
+                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+              >
                 Certificado
-                <a
-                  rel="stylesheet"
-                  href="https://certificates.academlo.com/en/verify/62918974502376"
-                  target="_blank"
-                />
-              </button>
+              </a>
+
               <h3 className="">Front-End</h3>
             </div>
           </div>
