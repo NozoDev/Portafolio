@@ -31,24 +31,27 @@ const Navbar = () => {
         >
           Inicio
         </Link>
+        
         <Link
-          to="./Work"
+          to="/Work"
           className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl"
         >
           Proyectos
         </Link>
         <Link
-          to="./Philosophy"
+          to="/Philosophy"
           className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
         >
           Filosofia
         </Link>
+
         <Link
-          to="./Skillset"
+          to="/Skillset"
           className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
         >
           Habilidades
         </Link>
+
         <Link
           to="./Contact"
           className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl"

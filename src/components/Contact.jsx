@@ -70,11 +70,12 @@ const Contact = () => {
           ></textarea>
         </div>
 
-        <button className="bg-[#1d1e22] rounded-md hover:bg-gray-d  transition-colors py-4 font-bold">
+        <button className="bg-[#7895CB] hover:bg-gray-d  transition-colors py-4 font-bold">
           Empecemos
         </button>
       </form>
       {isSent && <p className="text-white text-center ">{successMessage}</p>}
+
     </section>
   );
 };
