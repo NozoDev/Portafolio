@@ -33,46 +33,44 @@ const Contact = () => {
   };
 
   return (
-    <section
-    className="text-white p-2 px-x py-6 max-w-[600px] mx-auto relative z-20"
-    >
-    <div className="text-center text-3xl">Contactame</div>
+    <section className="text-white p-10  max-w-[600px] mx-auto h-auto relative z-20  ">
+      <h3 className="text-center text-3xl mt-14 ">Contactame</h3>
       <form onSubmit={handleSubmit} className="grid gap-6 mt-4 " ref={formRef}>
         <div className="grid gap-1">
           <label className="text-sm" htmlFor="name">
             Nombre
           </label>
           <input
-            className="bg-[#c9c9d8] p-2 outline-none text-black"
+            className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
             id="name"
             type="text"
             name="from_name"
           />
         </div>
         <div className="grid gap-1">
-          <label className="text-sm" htmlFor="email">
+          <label className="text-sm " htmlFor="email">
             Email
           </label>
           <input
-            className="bg-[#c9c9d8] p-2 outline-none text-black"
+            className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
             id="email"
             type="text"
             name="email"
           />
         </div>
-        <div className="grid gap-1">
-          <label className="text-sm" htmlFor="Mensaje">
+        <div className="grid gap-1 ">
+          <label className="text-sm " htmlFor="Mensaje">
             Mensaje
           </label>
           <textarea
-            className="bg-[#c9c9d8] p-2 outline-none text-black"
+            className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
             id="Mensaje"
             rows="10"
             name="message"
           ></textarea>
         </div>
 
-        <button className="bg-[#7895CB] hover:bg-gray-d  transition-colors py-4 font-bold">
+        <button className="bg-[#1d1e22] rounded-md hover:bg-gray-d  transition-colors py-4 font-bold">
           Empecemos
         </button>
       </form>

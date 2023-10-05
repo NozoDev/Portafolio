@@ -3,11 +3,11 @@ import React, { useRef, useState } from "react";
 const Work = () => {
   return (
     <section className="mx-auto max-w-[1250px] relative z-20 cursor-pointer">
-      <h3 className="text-4xl  text-white font-bold text-center mt-10 mb-5">
+      <h3 className="text-4xl  text-white font-bold text-center mt-12 p-10">
         Proyectos
       </h3>
-      <article className="grid justify-center mt-10 gap-4 justify-items-center auto-rows-auto grid-cols-[repeat(auto-fill,_minmax(230px,_340px))]">
-        <div className="w-[300px]  h-[320px] bg-transparent group perspective shadow-2xl">
+      <article className="flex flex-wrap h-full justify-center gap-4 justify-items-center p-10 ">
+        <div className="w-[300px] h-[320px] bg-transparent group perspective shadow-2xl">
           <div className="relative rounded-md preserve-3d group-hover:my-rotate-y-180 w-full h-full duration-1000">
             <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
               <img

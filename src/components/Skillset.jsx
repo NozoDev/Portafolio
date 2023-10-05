@@ -7,7 +7,7 @@ const Skillset = () => {
       id="Skillset"
     >
       {/* Subseccion superior */}
-      <section className="">
+      <section className="relative z-20 top-24">
         <article className="font-bold text-center text-white text-4xl ">
           <h3 className="">Habilidades</h3>
           <p className="text-whitefont-semibold  my-4 text-xl">
