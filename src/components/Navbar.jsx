@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { Route } from "react-router-dom";
-import './styles.css'
-
+import { Link } from "react-router-dom";
+import "./styles.css";
 
 const Navbar = () => {
   const [isShowNav, setIsShowNav] = useState(false);
@@ -12,7 +11,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 flex bg-gray-d justify-between h-10 items-center py-4 md:px-6 text-white mx-auto lg:px-24 md:py-0 w-full z-30 transition-colors duration-700">
-      <h1 className="font-bold text-3xl animate-pulse p-2 ">
+      <h1 className="font-bold text-3xl animate-pulse p-2">
         Kevin R.
       </h1>
 
@@ -26,36 +25,36 @@ const Navbar = () => {
           isShowNav ? "left-0" : "-left-full"
         } w-full grid text-lg gap-4 duration-200 rounded-md p-2  md:static md:flex md:w-auto`}
       >
-          <a
-          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl "
-          href="#Home"
+        <Link
+          to="/"
+          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
         >
           Inicio
-        </a>
-        <a
-          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl "
-          href="#Work"
+        </Link>
+        <Link
+          to="/work"
+          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl"
         >
           Proyectos
-        </a>
-        <a
-          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl "
-          href="#Philosophy"
+        </Link>
+        <Link
+          to="/philosophy"
+          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
         >
           Filosofia
-        </a>
-        <a
-          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl "
-          href="#Skillset"
+        </Link>
+        <Link
+          to="/skillset"
+          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
         >
           Habilidades
-        </a>
-        <a
-          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl "
-          href="#Contact"
+        </Link>
+        <Link
+          to="/contact"
+          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl"
         >
           Contacto
-        </a>
+        </Link>
       </nav>
     </header>
   );
