@@ -18,11 +18,12 @@ function App() {
         <Routes>
           {/* Utiliza <Routes> para envolver tus rutas */}
           <Route path="/" element={<Header />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/philosophy" element={<Philosophy />} />
-          <Route path="/skillset" element={<Skillset />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Work" element={<Work />} />
+          <Route path="/Philosophy" element={<Philosophy />} />
+          <Route path="/Skillset" element={<Skillset />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
+   
       </div>
     </Router>
   );
