@@ -11,9 +11,7 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 flex bg-gray-d justify-between h-10 items-center py-4 md:px-6 text-white mx-auto lg:px-24 md:py-0 w-full z-30 transition-colors duration-700">
-      <h1 className="font-bold text-3xl animate-pulse p-2">
-        Kevin R.
-      </h1>
+      <h1 className="font-bold text-3xl animate-pulse p-2">Kevin R.</h1>
 
       <i
         onClick={handleShowNav}
@@ -27,34 +25,34 @@ const Navbar = () => {
       >
         <Link
           to="/"
-          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
+          className="rounded-md font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
         >
           Inicio
         </Link>
-        
+
         <Link
           to="/Work"
-          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl"
+          className="rounded-md font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse "
         >
           Proyectos
         </Link>
         <Link
           to="/Philosophy"
-          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
+          className="rounded-md font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
         >
           Filosofia
         </Link>
 
         <Link
           to="/Skillset"
-          className="hover:bg-[#7895CB] rounded-md font-bold  duration-200 pl-2 text-2xl"
+          className="rounded-md font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
         >
           Habilidades
         </Link>
 
         <Link
           to="./Contact"
-          className="hover:bg-[#7895CB] rounded-md font-bold duration-200 pl-2 text-2xl"
+          className="rounded-md font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
         >
           Contacto
         </Link>
