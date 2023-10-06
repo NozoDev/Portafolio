@@ -44,7 +44,7 @@ const Philosophy = () => {
               <a
                 href="https://certificates.academlo.com/en/verify/62918974502376"
                 target="_blank"
-                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+                className="w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
@@ -63,7 +63,7 @@ const Philosophy = () => {
               <a
                 href="https://certificates.academlo.com/en/verify/62918974502376"
                 target="_blank"
-                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+                className="w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
@@ -82,7 +82,7 @@ const Philosophy = () => {
               <a
                 href="https://certificates.academlo.com/en/verify/62918974502376"
                 target="_blank"
-                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+                className=" w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
@@ -101,7 +101,7 @@ const Philosophy = () => {
               <a
                 href="https://certificates.academlo.com/en/verify/62918974502376"
                 target="_blank"
-                className="border-2 w-24 rounded-sm bg-slate-700 text-center"
+                className=" w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
