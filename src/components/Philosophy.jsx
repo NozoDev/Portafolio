@@ -6,9 +6,9 @@ import fundamentos from "/images/fundamentos.png"
 
 const Philosophy = () => {
   return (
-    <section className="p-10">
+    <section className="p-10 relative z-20 ">
       <section
-        className="max-w-[1200px] mt-10 mx-auto p-2 text-white sm:grid sm:grid-cols-2"
+        className="max-w-[1200px] mt-10 mx-auto p-2 text-white sm:grid sm:grid-cols-2 "
         id="Philosophy"
       >
         <article className="bg-blue text-white text-center py-10 px-2 grid gap-12 sm:grid sm:content-between">
@@ -27,7 +27,7 @@ const Philosophy = () => {
 
         <article>
           <img
-            className="w-full h-[300px] mx-auto object-cover"
+            className="w-full h-[350px] mx-auto object-cover"
             src="./images/codigo.png"
             alt=""
           />
