@@ -1,5 +1,8 @@
 import React from "react";
 import Frontend from "/images/frontend.png";
+import Fullstack from "/images/fullstack.png";
+import Backend from "/images/backend.png"
+import fundamentos from "/images/fundamentos.png"
 
 const Philosophy = () => {
   return (
@@ -56,57 +59,57 @@ const Philosophy = () => {
           <div className="text-white border-4 w-[550px] border-winter border-solid rounded-md">
             <img
               className="w-[650px] h-[350px] rounded-sm"
-              src={Frontend}
+              src={Fullstack}
               alt=""
             />
           <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
               <a
-                href="https://certificates.academlo.com/en/verify/62918974502376"
+                href="https://certificates.academlo.com/en/verify/93951562649959"
                 target="_blank"
                 className="w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
 
-              <h3 className="">Front-End</h3>
+              <h3 className="">FullStack</h3>
             </div>
           </div>
 
           <div className="text-white w-[550px] border-4  border-winter border-solid rounded-lg">
             <img
               className="w-[650px] h-[350px] rounded-sm"
-              src={Frontend}
-              alt=""
+              src={Backend}
+              alt="backend"
             />
          <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
               <a
-                href="https://certificates.academlo.com/en/verify/62918974502376"
+                href="https://certificates.academlo.com/en/verify/67245286791377"
                 target="_blank"
                 className=" w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
 
-              <h3 className="">Front-End</h3>
+              <h3 className="">Back-end</h3>
             </div>
           </div>
 
           <div className="text-white w-[550px] border-4 border-winter border-solid rounded-lg">
             <img
               className="w-[650px] h-[350px] rounded-sm"
-              src={Frontend}
-              alt=""
+              src={fundamentos}
+              alt="fundamentos"
             />
             <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
               <a
-                href="https://certificates.academlo.com/en/verify/62918974502376"
+                href="https://certificates.academlo.com/en/verify/60049887092301"
                 target="_blank"
                 className=" w-24 rounded-md bg-slate-700 text-center"
               >
                 Certificado
               </a>
 
-              <h3 className="">Front-End</h3>
+              <h3 className="">Fundamentos</h3>
             </div>
           </div>
         </article>
