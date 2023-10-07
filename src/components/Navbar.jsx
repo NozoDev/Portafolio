@@ -24,12 +24,12 @@ const Navbar = () => {
 
       <nav
         className={`text-white absolute top-full  ${
-          isShowNav ? "left-0 bg-black" : "-left-full"
-        } w-full grid text-lg gap-4 duration-200 rounded-md p-2   md:static md:flex md:w-auto `}
+          isShowNav ? "left-0 bg-black h-[350px] text-center " : "-left-full"
+        } w-full grid text-lg gap-4 duration-200 p-2 md:static md:flex md:w-auto `}
       >
         <Link
           to="/"
-          className="rounded-md font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
+          className="font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
           Inicio
@@ -37,14 +37,14 @@ const Navbar = () => {
 
         <Link
           to="/Work"
-          className="rounded-md font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse "
+          className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse "
           onClick={handleLinkClick}
         >
           Proyectos
         </Link>
         <Link
           to="/Philosophy"
-          className="rounded-md font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
+          className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
           Filosofia
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <Link
           to="/Skillset"
-          className="rounded-md font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
+          className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
           Habilidades
@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <Link
           to="./Contact"
-          className="rounded-md font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
+          className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
           Contacto

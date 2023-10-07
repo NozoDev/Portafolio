@@ -1,10 +1,14 @@
 import React, { useRef, useState } from "react";
-// import required modules
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
+
+
 const Work = () => {
+  const { t } = useTranslation();
   return (
     <section className="mx-auto max-w-[1250px] relative z-20 cursor-pointer">
       <h3 className="text-4xl  text-white font-bold text-center mt-12 p-10">
-        Proyectos
+        {t(descripcionProject)}
       </h3>
       <article className="flex flex-wrap h-full justify-center gap-4 justify-items-center p-10 ">
         <div className="w-[300px] h-[320px] bg-transparent group perspective shadow-2xl">
@@ -18,11 +22,10 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full h-full overflow-hidden ">
               <div className="text-center flex text-white flex-col items-center  h-full px-2 pb-24 p-4 ">
-                <h1 className="text-3xl font-semibold ">Rick And Morty</h1>
+                <h1 className="text-3xl font-semibold ">{t(descripcionProjectMorthy)}</h1>
 
                 <p className="p-2">
-                  React js, tailwind css. No te imaginas los personajes que
-                  encontraremos en estos diferentes lugares.
+                {t(descripcionProjectParrafoOne)}
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
