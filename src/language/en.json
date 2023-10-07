@@ -6,6 +6,15 @@
 
 "descripcionProject":"Projects",
 "descripcionProjectMorthy":"Rick and Morthy",
-"descripcionProjectParrafoOne":"React js, tailwind css. You can't imagine the characters we will find in these different places."
+"descripcionProjectParrafoOne":"React js, tailwind css. You can't imagine the characters we will find in these different places.",
+"descripcionProjectParrafoTailwind":"Tailwind",
+"descripcionProjectParrafoReact":"React Js",
+"descripcionProjectParrafoInf":"Information",
+"descripcionProjecClimate":"Climate App",
+"descripcionProjecParrafoClimate":"I use Tailwind CSS, JS and HTML in React for the finished API. add modes like dark mode that adapts automatically according to time, you can search in different places.",
+"descripcionProjectEcommerce":"E-commerce",
+"descripcionProjectParrafoEcommerce":"In this project I am working with a team from Academlo, we made this store with cart in dark mode, slider, main memory, support window, etc. We use CSS and JavaScript.",
+"descripcionProjectCard":"Users Card",
+"descripcionProjectCardParrafo":"In this project we work with user registration, user deletion and data update functions in Reactjs and tailwind.",
 
 }

@@ -29,10 +29,10 @@ const Work = () => {
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i>{t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i>{t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -41,7 +41,7 @@ const Work = () => {
                   href="https://sparkling-axolotl-da64bc.netlify.app/"
                   className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
@@ -59,20 +59,17 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
               <div className=" text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
-                <h1 className="text-3xl font-semibold p-2">App-Clima</h1>
+                <h1 className="text-3xl font-semibold p-2"> {t(descripcionProjecClimate)}</h1>
 
                 <p>
-                  Uso Tailwind CSS, JS y HTML en React para la API terminada.
-                  agregue modos como el modo oscuro que se adapta
-                  automáticamente según el tiempo, puede buscar en diferentes
-                  lugares.
+                {t(descripcionProjecParrafoClimate)}
                 </p>
                 <div className="text-xl py-2 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i>{t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i>{t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -81,7 +78,7 @@ const Work = () => {
                   href="https://shiny-quokka-7d33ba.netlify.app/"
                   className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
@@ -99,19 +96,16 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
               <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
-                <h1 className="text-3xl py-2 font-semibold">E-commerc</h1>
+                <h1 className="text-3xl py-2 font-semibold">{t(descripcionProjectEcommerce)}</h1>
                 <p className="">
-                  En este proyecto estoy trabajando con un equipo de Academlo,
-                  hicimos esta tienda con carrito en modo oscuro, slider,
-                  memoria principal, ventana de soporte, etc. Usamos CSS y
-                  JavaScript.
+                {t(descripcionProjectParrafoEcommerce)}
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i>{t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i>{t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -120,7 +114,7 @@ const Work = () => {
                   href="https://thecardshopping.netlify.app/"
                   className="bg-[#7895CB]  px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
@@ -145,10 +139,10 @@ const Work = () => {
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i> {t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i> {t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -157,7 +151,7 @@ const Work = () => {
                   href="https://miprimerpag.netlify.app/"
                   className="bg-[#7895CB]  px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
@@ -178,11 +172,9 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
               <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
-                <h1 className="text-2xl font-semibold ">Card Usuario</h1>
+                <h1 className="text-2xl font-semibold ">{t(descripcionProjectCard)}</h1>
                 <p className="p-2 text-md">
-                  En este proyecto se trabaja con funciones de registro de
-                  usuarios, eliminación de usuarios y actualización de datos
-                  Reactjs Y tailwind.
+                {t(descripcionProjectCardParrafo)}
                 </p>
                 <div className="text-xl flex text-white gap-3 ">
                   <p>
@@ -198,7 +190,7 @@ const Work = () => {
                   href="https://infinityspaces.netlify.app/"
                   className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
@@ -238,7 +230,7 @@ const Work = () => {
                   href="https://subtle-pastelito-c13191.netlify.app/"
                   className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
@@ -275,7 +267,7 @@ const Work = () => {
                   href="https://infinityspaces.netlify.app/"
                   className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
