@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
+
 import "./styles.css";
 
 const Navbar = () => {
+  const { t } = useTranslation();
+
   const [isShowNav, setIsShowNav] = useState(false);
 
   const handleShowNav = () => {
@@ -15,7 +20,9 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 flex bg-gray-d justify-between h-10 items-center py-4 md:px-6 text-white mx-auto lg:px-24 md:py-0 w-full z-30 transition-colors duration-700">
-      <h1 className="font-bold text-3xl animate-pulse p-2">Kevin R.</h1>
+      <h1 className="font-bold text-3xl animate-pulse p-2">
+        {t(descripcionNavbar)}
+      </h1>
 
       <i
         onClick={handleShowNav}
@@ -32,7 +39,7 @@ const Navbar = () => {
           className="font-bold  duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
-          Inicio
+          {t(descripcionNavbarInicio)}
         </Link>
 
         <Link
@@ -40,14 +47,14 @@ const Navbar = () => {
           className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse "
           onClick={handleLinkClick}
         >
-          Proyectos
+          {t(descripcionNavbarProyectos)}
         </Link>
         <Link
           to="/Philosophy"
           className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
-          Filosofia
+          {t(descripcionNavbarFilosofia)}
         </Link>
 
         <Link
@@ -55,7 +62,7 @@ const Navbar = () => {
           className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
-          Habilidades
+          {t(descripcionNavbarHabilidades)}
         </Link>
 
         <Link
@@ -63,7 +70,7 @@ const Navbar = () => {
           className="font-bold duration-200 pl-2 text-2xl hover:text-winter hover:animate-pulse"
           onClick={handleLinkClick}
         >
-          Contacto
+          {t(descripcionNavbarContact)}
         </Link>
       </nav>
     </header>
