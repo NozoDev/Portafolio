@@ -44,9 +44,9 @@
 "descripcionNavbarContact":"Cotacto",
 
 
-"":"",
-"":"",
-"":"",
-"":"",
-"":"",
+"descriptionContact":"Contactame",
+"descriptionContactName":"Nombre",
+"descriptionContactEmail":"Email",
+"descriptionContactMessage":"Mensaje",
+"descriptionContactEmpecemos":"Empecemos"
 }

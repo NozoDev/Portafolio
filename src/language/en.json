@@ -43,9 +43,9 @@
 "descripcionNavbarHabilidades":"Skills",
 "descripcionNavbarContact":"Contact",
 
-"":"",
-"":"",
-"":"",
-"":"",
-"":"",
+"descriptionContact":"Contact me",
+"descriptionContactName":"Name",
+"descriptionContactEmail":"Email",
+"descriptionContactMessage":"Message",
+"descriptionContactEmpecemos":"Let's Begin"
 }

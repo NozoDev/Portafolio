@@ -1,8 +1,12 @@
 import { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 const Contact = () => {
+  const { t } = useTranslation();
+
   const formRef = useRef(null);
   const [isSent, setIsSent] = useState(false);
   const [successMessage, setSuccessMessage] = useState(" ");
@@ -34,11 +38,11 @@ const Contact = () => {
 
   return (
     <section className="text-white p-10  max-w-[600px] mx-auto h-auto relative z-20  ">
-      <h3 className="text-center text-3xl mt-14 ">Contactame</h3>
+      <h3 className="text-center text-3xl mt-14 ">{t(descriptionContact)}</h3>
       <form onSubmit={handleSubmit} className="grid gap-6 mt-4 " ref={formRef}>
         <div className="grid gap-1">
           <label className="text-sm" htmlFor="name">
-            Nombre
+            {t(descriptionContactName)}
           </label>
           <input
             className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
@@ -49,7 +53,7 @@ const Contact = () => {
         </div>
         <div className="grid gap-1">
           <label className="text-sm " htmlFor="email">
-            Email
+            {t(descriptionContactEmail)}
           </label>
           <input
             className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
@@ -60,7 +64,7 @@ const Contact = () => {
         </div>
         <div className="grid gap-1 ">
           <label className="text-sm " htmlFor="Mensaje">
-            Mensaje
+            {t(descriptionContactEmpecemos)}
           </label>
           <textarea
             className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
@@ -71,11 +75,10 @@ const Contact = () => {
         </div>
 
         <button className="bg-[#7895CB] hover:bg-gray-d  transition-colors py-4 font-bold">
-          Empecemos
+          {t(descriptionContactMessage)}
         </button>
       </form>
       {isSent && <p className="text-white text-center ">{successMessage}</p>}
-
     </section>
   );
 };
