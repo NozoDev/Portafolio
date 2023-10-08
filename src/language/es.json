@@ -16,5 +16,15 @@
 "descripcionProjectEcommerce":"E-commerce",
 "descripcionProjectParrafoEcommerce":"En este proyecto estoy trabajando con un equipo de Academlo, hicimos esta tienda con carrito en modo oscuro, slider, memoria principal, ventana de soporte, etc. Usamos CSS y JavaScript.",
 "descripcionProjectCard":"Card Usuario",
-"descripcionProjectCardParrafo":" En este proyecto se trabaja con funciones de registro de  usuarios, eliminación de usuarios y actualización de datos Reactjs Y tailwind."
+"descripcionProjectCardParrafo":" En este proyecto se trabaja con funciones de registro de  usuarios, eliminación de usuarios y actualización de datos Reactjs Y tailwind.",
+"descripcionProjectMascotas":"Mascotas App",
+"descripcionProjectParrafoPets":"En este proyecto estoy trabajando con html y css, hicimos una app para mascotas donde tiene diferentes secciones.",
+"descripcionProjectPoke":"Pokedex",
+"descripcionProjectParrafoPokedex":"En este proyecto, usamos tailwind, react, vite y una API para crear un pokedex. ven a buscar tu pokemon",
+"descripcionProjectGalaxy":"About Galaxia",
+"descripcionProjectParrafoGalaxy":"Bienvenido a la galaxia. Realizarás este viaje por el espacio en un cohete, logrando así viajar a diferentes lugares este proyecto se realizo con Reactjs y CSS",
+"descripcionProjectTiendaParrafo":"Esta tienda esta hecha con react js y tailwind css y se consumio una Api para los productos",
+
+"descripcionHabilidades":"Habilidades",
+"descripcionHabilidadesParrafo":" Con habilidades en más de 4 campos diferentes de diseño, soy la persona a contratar cuando se trata de un proyecto completo, cualquiera que sean tus necesidades, puedo asumir practicamente cualquier desafio.",
 }

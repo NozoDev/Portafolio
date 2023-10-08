@@ -132,10 +132,9 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
               <div className="text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
-                <h1 className="text-3xl py-2 font-semibold">App-Mascotas</h1>
+                <h1 className="text-3xl py-2 font-semibold">{t(descripcionProjectMascotas)}</h1>
                 <p className="">
-                  En este proyecto estoy trabajando con html y css, hicimos una
-                  app para mascotas donde tiene diferentes secciones.
+                {t(descripcionProjectParrafoPets)}
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
@@ -178,10 +177,10 @@ const Work = () => {
                 </p>
                 <div className="text-xl flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i> {t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i> {t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -211,17 +210,16 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
               <div className="text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
-                <h1 className="text-3xl font-semibold ">Pokedex</h1>
+                <h1 className="text-3xl font-semibold ">{t(descripcionProjectPoke)}</h1>
                 <p className="p-3">
-                  En este proyecto, usamos tailwind, react, vite y una API para
-                  crear un pokedex. ven a buscar tu pokemon
+                {t(descripcionProjectParrafoPokedex)}
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i> {t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i> {t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -248,17 +246,16 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md my-rotate-y-180 w-full h-full overflow-hidden ">
               <div className=" text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
-                <h1 className="text-3xl font-semibold">About Galaxys</h1>
+                <h1 className="text-3xl font-semibold">{t(descripcionProjectGalaxy)}</h1>
                 <p className="p-3">
-                  Bienvenido a la galaxia. Realizarás este viaje por el espacio
-                  en un cohete, logrando así viajar a diferentes lugares
+                {t(descripcionProjectParrafoGalaxy)}
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i> {t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i> {t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -288,17 +285,16 @@ const Work = () => {
             </div>
             <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md my-rotate-y-180 w-full h-full overflow-hidden">
               <div className=" text-center flex flex-col items-center h-full text-white px-2 pb-24 p-2">
-                <h1 className="text-2xl font-semibold py-2">Tienda Online</h1>
+                <h1 className="text-2xl font-semibold py-2">{t(descripcionProjectTienda)}</h1>
                 <p className="p-3">
-                  Esta tienda esta hecha con react js y tailwind css y se
-                  consumio una Api para los productos
+                {t(descripcionProjectTiendaParrafo)}
                 </p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
-                    <i className="bx bxl-tailwind-css"></i> Tailwind
+                    <i className="bx bxl-tailwind-css"></i> {t(descripcionProjectParrafoTailwind)}
                   </p>
                   <p>
-                    <i className="bx bxl-react"></i> React
+                    <i className="bx bxl-react"></i> {t(descripcionProjectParrafoReact)}
                   </p>
                 </div>
                 <a
@@ -307,7 +303,7 @@ const Work = () => {
                   href="https://starlit-pothos-b658b1.netlify.app/"
                   className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
                 >
-                  INFO
+                  {t(descripcionProjectParrafoInf)}
                 </a>
               </div>
             </div>
