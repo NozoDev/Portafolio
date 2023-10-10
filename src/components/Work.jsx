@@ -327,7 +327,50 @@ const Work = () => {
             </div>
           </div>
         </div>
+
+        <div className="w-[300px] h-[320px]  bg-transparent group perspective">
+          <div className="relative preserve-3d  rounded-md group-hover:my-rotate-y-180 w-full h-full duration-1000">
+            <div className="absolute border-0 w-full h-full backface-hidden bg-gradient-to-tr from-cold p-1 rounded-md">
+              <img
+                src="/images/Landing.png"
+                alt=""
+                className="w-full h-full rounded-md"
+              />
+            </div>
+            <div className="absolute bg-dark border-2  backface-hidden bg-gradient-to-tr from-blue p-1 rounded-md  my-rotate-y-180 w-full  h-full overflow-hidden ">
+              <div className=" text-white text-center flex flex-col items-center h-full px-2 pb-24 p-2">
+                <h1 className="text-3xl font-semibold p-2">
+                  {" "}
+                  Landing
+                </h1>
+
+                <p>Es una pequeña landing donde aparece cierta cantidad de video juegos, fue realizada con react-router-dom , tailwin css</p>
+                <div className="text-xl py-2 flex text-white gap-3 ">
+                  <p>
+                    <i className="bx bxl-tailwind-css"></i>
+                    Tailwind Css
+                  </p>
+                  <p>
+                    <i className="bx bxl-react"></i>
+                    React Js
+                  </p>
+                </div>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://shiny-speculoos-9cd1ce.netlify.app/"
+                  className="bg-[#7895CB] px-4 py-2 font-semibold text-white rounded-md absolute -bottom-20 delay-500 duration-1000 group-hover:bottom-10 scale-0 group-hover:scale-125"
+                >
+                  Informacion
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </article>
+
+      
     </section>
   );
 };
