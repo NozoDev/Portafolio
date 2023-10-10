@@ -1,4 +1,4 @@
-{"descripcion": "Front-end Development",
+{"descripcionFront": "Front-end Development",
 "descripcionHeader": "Passionate with a creative approach and a fascination for the world of design and technology. Throughout my career, I have had the privilege of working on various projects where I have been able combine my artistic skills and my technical experience to create unique and attractive solutions.",
 "ButtonCv":"Download Cv",
 "descripcionFooter":"All rights reserved",
@@ -36,7 +36,6 @@
 "descripcionFundaments":"Fundamentals",
 
 
-"descripcionNavbar":"Kevin R.",
 "descripcionNavbarInicio":"Home",
 "descripcionNavbarProyectos":"Projects",
 "descripcionNavbarFilosofia":"philosophy and certificates",

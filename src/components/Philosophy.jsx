@@ -1,14 +1,14 @@
 import React from "react";
-import { I18nextProvider } from "react-i18next";
-import i18n from "./i18n";
-
 import Frontend from "/images/frontend.png";
 import Fullstack from "/images/fullstack.png";
-import Backend from "/images/backend.png"
-import fundamentos from "/images/fundamentos.png"
+import Backend from "/images/backend.png";
+import fundamentos from "/images/fundamentos.png";
 
 const Philosophy = () => {
-  const { t } = useTranslation();
+
+
+
+
   return (
     <section className="p-10 relative z-20 ">
       <section
@@ -18,10 +18,10 @@ const Philosophy = () => {
         <article className="bg-blue text-white text-center py-10 px-2 grid gap-12 sm:grid sm:content-between">
           <div>
             <h3 className="text-3xl font-bold pt-4 py-10">
-            {t(descripcionProjectCertificados)}
+            Certificados y valores
             </h3>
             <p className="text-white ">
-            {t(descripcionProjectCertificadosParrafo)}
+            El diseño esta en todo lo que hacemos, pero tambien esta en medio de todo, es una combinacion de arte, ciencia, historia y filosofia pero tambien creo que La Honestidad es la mejor de todas las artes perdidas.
             </p>
           </div>
         </article>
@@ -36,7 +36,9 @@ const Philosophy = () => {
       </section>
 
       <section className="relative z-20 ">
-        <h4 className="text-center mt-10 text-white  text-4xl">{t(descripcionProjectCertificadosOne)}</h4>
+        <h4 className="text-center mt-10 text-white  text-4xl">
+        Certificados
+        </h4>
         <article className="flex justify-center gap-4 flex-wrap mt-10">
           <div className="text-white border-4  w-[550px] border-winter border-solid rounded-lg">
             <img
@@ -44,16 +46,16 @@ const Philosophy = () => {
               src={Frontend}
               alt=""
             />
-         <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
+            <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
               <a
                 href="https://certificates.academlo.com/en/verify/62918974502376"
                 target="_blank"
                 className="w-24 rounded-md bg-slate-700 text-center"
               >
-                {t(descripcionProjectCertificadosOne)}
+                Certificado
               </a>
 
-              <h3 className="">{t(descripcionFrontend)}</h3>
+              <h3 className="">Front-End</h3>
             </div>
           </div>
 
@@ -63,16 +65,16 @@ const Philosophy = () => {
               src={Fullstack}
               alt=""
             />
-          <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
+            <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
               <a
                 href="https://certificates.academlo.com/en/verify/93951562649959"
                 target="_blank"
                 className="w-24 rounded-md bg-slate-700 text-center"
               >
-                {t(descripcionProjectCertificadosOne)}
+                Certificado
               </a>
 
-              <h3 className="">{t(descripcionFullStack)}</h3>
+              <h3 className="">FullStack</h3>
             </div>
           </div>
 
@@ -82,16 +84,16 @@ const Philosophy = () => {
               src={Backend}
               alt="backend"
             />
-         <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
+            <div className="flex justify-around mt-4  mb-4 items-center shadow-xl">
               <a
                 href="https://certificates.academlo.com/en/verify/67245286791377"
                 target="_blank"
                 className=" w-24 rounded-md bg-slate-700 text-center"
               >
-                {t(descripcionProjectCertificadosOne)}
+                Certificado
               </a>
 
-              <h3 className="">{t(descripcionBackEnd)}</h3>
+              <h3 className="">Back-End</h3>
             </div>
           </div>
 
@@ -107,10 +109,10 @@ const Philosophy = () => {
                 target="_blank"
                 className=" w-24 rounded-md bg-slate-700 text-center"
               >
-                {t(descripcionProjectCertificadosOne)}
+                Certificado
               </a>
 
-              <h3 className="">{t(descripcionBackEnd)}</h3>
+              <h3 className="">Fundamentos</h3>
             </div>
           </div>
         </article>

@@ -1,9 +1,10 @@
 import React from "react";
-import { I18nextProvider } from "react-i18next";
-import i18n from "./i18n";
+import {useTranslation } from "react-i18next";
 
 const Skillset = () => {
   const { t } = useTranslation();
+
+
   return (
     <section
       className=" text-white px-2 py-12 max-w-[1000px] mx-auto "
@@ -12,9 +13,9 @@ const Skillset = () => {
       {/* Subseccion superior */}
       <section className="relative z-20 top-24">
         <article className="font-bold text-center text-white text-4xl ">
-          <h3 className="">{t(descripcionHabilidades)}</h3>
+          <h3 className="">Habilidades</h3>
           <p className="text-whitefont-semibold  my-4 text-xl">
-          {t(descripcionHabilidadesParrafo)}
+          Con habilidades en más de 4 campos diferentes de diseño, soy la persona a contratar cuando se trata de un proyecto completo, cualquiera que sean tus necesidades, puedo asumir practicamente cualquier desafio.
           </p>
         </article>
 
