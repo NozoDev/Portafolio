@@ -52,25 +52,25 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bx bxl-linkedin py-4 hover:animate-pulse text-white text-3xl"></i>
+              <i className="bx bxl-linkedin  hover:animate-pulse text-white text-xl"></i>
             </a>
             <a
               href="https://github.com/NozoDev"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bx bxl-github py-4 hover:animate-pulse text-white text-3xl"></i>
+              <i className="bx bxl-github hover:animate-pulse text-white text-xl"></i>
             </a>
             <a
               href="https://twitter.com/kevinroj326"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="bx bxl-twitter py-4 hover:animate-pulse text-white text-3xl "></i>
+              <i className="bx bxl-twitter hover:animate-pulse text-white text-xl "></i>
             </a>
           </section>
         </section>
-        <span className="grid text-center bg-gray-d text-white ">
+        <span className="grid text-center bg-gray-d text-white  ">
           &copy; Todos los derechos reservados {new Date().getFullYear()}
         </span>
       </footer>
