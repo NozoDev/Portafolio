@@ -263,7 +263,7 @@ const Work = () => {
                 <h1 className="text-3xl font-semibold">
                 About Galaxia
                 </h1>
-                <p className="p-3">Bienvenido a la galaxia. Realizarás este viaje por el espacio en un cohete, logrando así viajar a diferentes lugares este proyecto se realizo con Reactjs y CSS</p>
+                <p className="p-3 text-sm font-bold">Bienvenido a la galaxia. Realizarás este viaje por el espacio en un cohete, logrando así viajar a diferentes lugares este proyecto se realizo con Reactjs y CSS</p>
                 <div className="text-xl py-3 flex text-white gap-3 ">
                   <p>
                     <i className="bx bxl-tailwind-css"></i>{" "}
