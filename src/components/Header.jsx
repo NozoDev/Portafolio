@@ -44,7 +44,7 @@ const Header = () => {
         </section>
       </section>
 
-      <footer className="p-2  bottom-0 z-20 relative">
+      <footer className="p-2  bottom-0 z-20 w-full fixed">
         <section className="flex bg-gray-d items-center justify-center">
           <section className="flex gap-2 ">
             <a
