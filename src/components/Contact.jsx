@@ -36,11 +36,11 @@ const Contact = () => {
   };
 
   return (
-    <section className="text-white p-10  max-w-[600px] mx-auto h-auto relative z-20  ">
+    <section className="text-white p-10  max-w-[600px] mx-auto h-auto relative z-20 ">
       <h3 className="text-center text-3xl mt-14 ">Contactame</h3>
       <form onSubmit={handleSubmit} className="grid gap-6 mt-4 " ref={formRef}>
         <div className="grid gap-1">
-          <label className="text-sm" htmlFor="name">
+          <label className="text-sm font-bold" htmlFor="name">
             Nombre
           </label>
           <input
@@ -51,7 +51,7 @@ const Contact = () => {
           />
         </div>
         <div className="grid gap-1">
-          <label className="text-sm " htmlFor="email">
+          <label className="text-sm font-bold" htmlFor="email">
             Correo
           </label>
           <input
@@ -62,7 +62,7 @@ const Contact = () => {
           />
         </div>
         <div className="grid gap-1 ">
-          <label className="text-sm " htmlFor="Mensaje">
+          <label className="text-sm font-bold" htmlFor="Mensaje">
             Empecemos
           </label>
           <textarea

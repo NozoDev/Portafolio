@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 import "./styles.css";
 
-const Navbar = () => {
+const Navbar = ({changeColor}) => {
   const [isShowNav, setIsShowNav] = useState(false);
 
   const handleShowNav = () => {
@@ -66,6 +67,7 @@ const Navbar = () => {
         >
           Contacto
         </Link>
+    
       </nav>
     </header>
   );
