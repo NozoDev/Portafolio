@@ -20,7 +20,7 @@ const Philosophy = () => {
             <h3 className="text-3xl font-bold pt-4 py-10">
             Certificados y valores
             </h3>
-            <p className="text-white ">
+            <p className="text-white font-bold ">
             El diseño esta en todo lo que hacemos, pero tambien esta en medio de todo, es una combinacion de arte, ciencia, historia y filosofia pero tambien creo que La Honestidad es la mejor de todas las artes perdidas.
             </p>
           </div>
@@ -50,7 +50,7 @@ const Philosophy = () => {
               <a
                 href="https://certificates.academlo.com/en/verify/62918974502376"
                 target="_blank"
-                className="w-24 rounded-md bg-slate-700 text-center"
+                className="w-24 rounded-md bg-slate-700 text-center hover:bg-red-500"
               >
                 Certificado
               </a>

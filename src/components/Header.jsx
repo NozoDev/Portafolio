@@ -27,8 +27,8 @@ const Header = () => {
           Front-end Development
           </h2>
 
-          <p className="mt-4 md:mt-10 md:relative md:z-20 ">
-          Apasionado con un enfoque creativo y una fascinación por el mundodel diseño y la tecnología. A través de mi carrera, he tenido el privilegio de trabajar en diversos proyectos donde he podido combinar mis habilidades artísticas y mi experiencia técnica para crear soluciones únicas y atractivas.
+          <p className="mt-4 md:mt-10 md:relative md:z-20 font-bold ">
+          Apasionado con un enfoque creativo y una fascinación por el mundo del diseño y la tecnología. A través de mi carrera, he tenido el privilegio de trabajar en diversos proyectos donde he podido combinar mis habilidades artísticas y mi experiencia técnica para crear soluciones únicas y atractivas.
           </p>
 
           <div className="hover:animate-pulse relative z-20 flex justify-center py-4 font-bold">

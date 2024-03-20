@@ -14,7 +14,7 @@ const Skillset = () => {
       <section className="relative z-20 top-24">
         <article className="font-bold text-center text-white text-4xl ">
           <h3 className="">Habilidades</h3>
-          <p className="text-whitefont-semibold  my-4 text-xl">
+          <p className="text-whitefont-semibold  my-4 text-xl font-bold">
           Con habilidades en más de 4 campos diferentes de diseño, soy la persona a contratar cuando se trata de un proyecto completo, cualquiera que sean tus necesidades, puedo asumir practicamente cualquier desafio.
           </p>
         </article>

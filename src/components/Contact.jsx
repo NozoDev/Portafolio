@@ -41,7 +41,7 @@ const Contact = () => {
       <form onSubmit={handleSubmit} className="grid gap-6 mt-4 " ref={formRef}>
         <div className="grid gap-1">
           <label className="text-sm" htmlFor="name">
-            Name
+            Nombre
           </label>
           <input
             className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
@@ -52,7 +52,7 @@ const Contact = () => {
         </div>
         <div className="grid gap-1">
           <label className="text-sm " htmlFor="email">
-            Nombre
+            Correo
           </label>
           <input
             className="bg-[#c9c9d8] p-2 outline-none text-black rounded-md"
@@ -73,8 +73,8 @@ const Contact = () => {
           ></textarea>
         </div>
 
-        <button className="bg-[#7895CB] hover:bg-gray-d  transition-colors py-4 font-bold">
-          Mensaje
+        <button className="bg-[#7895CB] hover:animate-pulse rounded-md  transition-colors py-4 font-bold">
+          Enviar
         </button>
       </form>
       {isSent && <p className="text-white text-center ">{successMessage}</p>}
